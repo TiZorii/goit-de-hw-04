@@ -15,15 +15,9 @@ Here's what you need to do:
 
 We’ll use the familiar code as a base and add an intermediate operation:
 
-Result of code in task_01.py:
-![Result of code in task_01](./screenshots/task_01.png)
-
 ### Part 2
 
 We’ll add an intermediate action, collect:
-
-Result of code in task_02.py:
-![Result of code in task_02](./screenshots/task_02.png)
 
 > 🧠 Think: Why does adding just one intermediate action result in 3 more Jobs?
 
@@ -41,8 +35,5 @@ We’ll introduce a new function: `cache`.
 4. **Cache control**: By default, cached data is stored with the MEMORY_ONLY storage level. To use other storage levels like MEMORY_AND_DISK, you can use the persist() method instead.
 
 > ☝🏻 No need to dive deep into these technicalities during this practical assignment. The key takeaway is that data can be stored either in memory or on disk, with memory being the far more common option, while disk storage is rare and exotic 😉.
-
-Result of code in task_03.py:
-![Result of code in task_03](./screenshots/task_03.png)
 
 > 🧠 Think: Why does using `cache()` reduce the number of Jobs?
